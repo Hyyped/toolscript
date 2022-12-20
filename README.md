@@ -1,5 +1,5 @@
 # usage
-1. Copy the code in #browser-calc
+1. Copy the code in calculator.js
 2. Type 'javascript:' into the address bar
 3. Paste after 'javascript:'
 4. Enter
