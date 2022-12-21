@@ -8,4 +8,5 @@
 Cancel to cycle operations
 Enter to choose
 
-To close calc, either cycle through all operations or complete an equation and cancel
+To close calc, complete an operation and cancel
+Exit process will be updated
