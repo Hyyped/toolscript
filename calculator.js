@@ -1,7 +1,4 @@
 for (;;) {
-    object.onkeypress = function(){
-        throw error("Calculation Completed");
-    };
     if(confirm("Confirm to select operation\nCurrent operation: multiplication") == true) {
     let factor1 = window.prompt("Enter the first factor");
     let factor2 = window.prompt("Enter the second factor"); 
@@ -14,8 +11,8 @@ for (;;) {
 if(confirm("Confirm to select operation\nCurrent operation: division") == true) {
     let dividend = window.prompt("Enter the dividend"); 
     let divisor = window.prompt("Enter the divisor"); 
-    let quotient = Number(dividend) / Number(divisor);
-    alert(quotient)
+    let quotient = Number(dividend) / Number(divisor); 
+    alert(quotient);
     if(confirm("Cancel to end process") == false) {
         throw error("Calculation Completed");
     }
@@ -44,6 +41,7 @@ if(confirm("Confirm to select operation\nCurrent operation: exponents") == true)
     let solvedExponent = Number(base) ** Number(exponent);
     alert(solvedExponent);
     if(confirm("Cancel to end process") == false) {
-    throw error("Calculation Completed");
+        throw error("Calculation Completed");
     }
-} }
+}
+}
