@@ -10,8 +10,10 @@ if(confirm("Confirm to select operation\nCurrent operation: multiplication") == 
 if(confirm("Confirm to select operation\nCurrent operation: division") == true) {
     let dividend = window.prompt("Enter the dividend"); 
     let divisor = window.prompt("Enter the divisor"); 
-    let quotient = Number(dividend) / Number(divisor); 
-    alert(quotient);
+    let decimalquotient = Number(dividend) / Number(divisor);
+    let quotient = Math.floor(Number(dividend) / Number(divisor)); 
+    let remainder = Number(dividend) % Number(divisor);
+    alert(quotient + " " + remainder + "/" + divisor + "\nOR\n" + decimalquotient);
     if(confirm("Cancel to end process") == false) {
         throw error("Calculation Completed");
     }
@@ -39,7 +41,5 @@ if(confirm("Confirm to select operation\nCurrent operation: exponents") == true)
     let exponent = window.prompt("Enter the exponent"); 
     let solvedExponent = Number(base) ** Number(exponent);
     alert(solvedExponent);
-    if(confirm("Cancel to end process") == false) {
-        throw error("Calculation Completed");
-    }
+    throw error("Calculation Completed");
 }
