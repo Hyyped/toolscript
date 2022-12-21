@@ -4,7 +4,7 @@
 3. Paste after 'javascript:'
 4. Enter
 
-#functions
+# functions
 Cancel to cycle operations
 Enter to choose
 
