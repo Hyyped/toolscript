@@ -27,7 +27,9 @@ for (;;) {
             }
             else {
                 let quotient = Number(dividend) / Number(divisor); 
-                alert(quotient)
+                let wholeNum = Math.floor(Number(dividend) / Number(divisor));
+                let remainder = Number(dividend) % Number(divisor);
+                alert(quotient + "\n\nMixed Number: " + wholeNum + " " + remainder + "/" + divisor)
             }
             if(confirm("Cancel to end process") == false) {
                 throw error("Calculation Completed");
