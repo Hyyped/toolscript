@@ -6,6 +6,4 @@
 
 # functions
 Cancel to cycle operations, click "ok" or hit enter to choose one.
-
 To close calc, complete an operation and cancel
-Exit process will be updated to use keybinds soon (hopefully!)
