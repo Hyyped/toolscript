@@ -362,13 +362,9 @@ if(confirm("Confirm to select a program\nCurrent program: Percentage Finder") ==
             var numerator = percentage;
             var denominator = 100;
             var number = percentage / 100;
-            var nFrac = numerator;
-            var dFrac = denominator;
-            var fracV = 1;
-            simpFrac();
-            numerator = nFrac;
-            denominator = dFrac;
-            alert(percentage + "% is equal to " + number + " and " + numerator + "/" + denominator + ".");
+            var GCD = (a, b) => b ? GCD(b, a % b) : a;
+            var div = GCD(numerator, denominator);
+            alert(percentage + "% is equal to " + number + " or " + numerator / div + "/" + denominator / div + ".");
             if (confirm("Cancel to end process") == false) {
                 throw error("Calculation Completed");
             }
@@ -385,13 +381,14 @@ if(confirm("Confirm to select a program\nCurrent program: Percentage Finder") ==
         };
     };
 };
-function simpFrac() {
-    for (var i = 1; i < dFrac; i++) {
-        fracV = fracV + 1;
-        if (Number.isInteger(nFrac / fracV) && Number.isInteger(dFrac / fracV)) {
-          nFrac = nFrac / fracV;
-          dFrac = dFrac / fracV;  
-        };
-    };
+if (confirm("Confirm to select a program\nCurrent program: Fraction Simplifier") == true) {
+    var numerator = prompt("Enter the numerator");
+    var denominator = prompt("Enter the denominator");
+    var GCD = (a, b) => b ? GCD(b, a % b) : a;
+    var div = GCD(numerator, denominator);
+    alert(numerator + "/" + denominator + " simplifies to " + numerator / div + "/" + denominator / div + ".");
+    if (confirm("Cancel to end process") == false) {
+        throw error("Calculation Completed");
+    }
 };
 };
