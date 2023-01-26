@@ -391,4 +391,16 @@ if (confirm("Confirm to select a program\nCurrent program: Fraction Simplifier")
         throw error("Calculation Completed");
     }
 };
+if (confirm("Confirm to select a program\nCurrnet program: Area Calculator") == true) { 
+if (confirm("Confirm to select an area calculator\nCurrent area calculator: Width and Length") == true) {
+    var width = prompt("Enter the width");
+    var length = prompt("Enter the length");
+    var area = `An object ${width} units wide and ${length} units long has an area of ${width * length} squared.`;
+    alert(area);
+    if (confirm("Cancel to end process") == false) {
+        throw error("Calculation Completed");
+    }
+};
+if (confirm("Confirm to select an area calculator\nCurrent area calculator: Width, Length, and Height"))
+};
 };

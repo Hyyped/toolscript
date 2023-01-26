@@ -2,7 +2,7 @@
 1. Copy the code in [tool.js](https://github.com/Hyyped/toolscript/blob/main/tool.js)
 2. Type 'javascript:' into the address bar
 3. Paste after 'javascript:'
-4. Enter
+4. Enter!
 
 # functions
 Cancel to cycle operations, click "ok" or hit enter to choose one.
