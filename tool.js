@@ -392,6 +392,7 @@ if (confirm("Confirm to select a program\nCurrent program: Fraction Simplifier")
     }
 };
 if (confirm("Confirm to select a program\nCurrnet program: Area Calculator") == true) { 
+for (;;) {
 if (confirm("Confirm to select an area calculator\nCurrent area calculator: Width and Length") == true) {
     var width = prompt("Enter the width");
     var length = prompt("Enter the length");
@@ -410,6 +411,7 @@ if (confirm("Confirm to select an area calculator\nCurrent area calculator: Widt
     if (confirm("Cancel to end process") == false) {
         throw error("Calculation Completed");
     }
+};
 };
 };
 };
