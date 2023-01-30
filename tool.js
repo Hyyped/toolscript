@@ -234,12 +234,12 @@ if (confirm("Cancel to end process") == false) {
 }
 };
 if(confirm("Confirm to select a program\nCurrent program: Metric Calculator") == true) {
-   a for (;;) {
-  a  if(confirm("Confirm to select a metric conversion\nCurrent conversion: kilo and hecto") == true) {
-       a var kilo = prompt("Enter a kilo conversion number");
-       a var hecto = prompt("Enter a hecto conversion number");
-       a var hik = kilo * 10;
-       a var kih = hecto / 10;
+    for (;;) {
+    if(confirm("Confirm to select a metric conversion\nCurrent conversion: kilo and hecto") == true) {
+        var kilo = prompt("Enter a kilo conversion number");
+        var hecto = prompt("Enter a hecto conversion number");
+        var hik = kilo * 10;
+        var kih = hecto / 10;
         if (isNaN(hik || kih)) {
             alert("error.invalidSyntax");
         }
