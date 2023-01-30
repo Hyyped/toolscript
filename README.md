@@ -1,9 +1,7 @@
-# usage
-1. Copy the code in [tool.js](https://github.com/Hyyped/toolscript/blob/main/tool.js)
-2. Type 'javascript:' into the address bar
-3. Paste after 'javascript:'
-4. Enter!
+### list
 
-# functions
-Cancel to cycle operations, click "ok" or hit enter to choose one.
-To close calc, complete an operation and cancel
+
+### usage
+1. Type 'javascript:' into the address bar
+2. Paste selected code after 'javascript:'
+3. Enter!
