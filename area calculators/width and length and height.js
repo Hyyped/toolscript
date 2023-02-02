@@ -6,10 +6,8 @@
 * I am not responsible for any trouble you get in for using any of the scripts included in ToolScript© 
 **/
 
-var percentage = prompt("Enter a percentage");
-var numerator = percentage;
-var denominator = 100;
-var number = percentage / 100;
-var GCD = (a, b) => b ? GCD(b, a % b) : a;
-var div = GCD(numerator, denominator);
-alert(percentage + "% is equal to " + number + " or " + numerator / div + "/" + denominator / div + ".");
+var width = prompt("Enter the width");
+var length = prompt("Enter the length");
+var height = prompt("Enter the height");
+var area = `An object ${width} units wide, ${length} units long and ${height} units tall has an area of ${width * length * height} units cubed`;
+alert(area);
