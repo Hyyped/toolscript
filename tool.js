@@ -1,3 +1,9 @@
+/** 
+* @license ToolScript © 2023 by Hyyped is licensed under CC BY-NC-SA 4.0 
+* All Reproduction of this code MUST be a remix and attribution is required 
+* Any PUBLIC copy of this work is not legal and a DMCA takedown of said repo or website will be submitted 
+**/
+
 for (;;) {
     if(confirm("Confirm to select a program\nCurrent Program: Basic Calculators") == true) {
         for (;;) {
