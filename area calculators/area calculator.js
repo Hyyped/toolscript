@@ -26,4 +26,13 @@ for (;;) {
             throw error("Calculation Completed");
         }
     };
+    if (confirm("Confirm to select an area calculator\nCurrent area calculator: perimeter finder") == true) {
+        var width = prompt("Enter the width");
+        var length = prompt("Enter the length");
+        var perimeter = Number(width * 2) + Number(length * 2);
+        alert(`An object with a width of ${width} units and a length of ${length} units has a perimeter of ${perimeter} units.`);
+        if (confirm("Cancel to end process") == false) {
+            throw error("Calculation Completed");
+        }
+    };
     };
