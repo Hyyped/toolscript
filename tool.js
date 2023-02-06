@@ -163,7 +163,7 @@ if(confirm("Confirm to select a program\nCurrent program: Volume Converters") ==
         if(confirm("Confirm to select a measurement convertion\nCurrent convertion: gallons to quarts") == true) {
             let gallons = prompt("Enter the amount of gallons");
             let quarts = gallons * 4;
-            alert("There are" + quarts + " quarts in " + gallons + " gallons.");
+            alert("There are " + quarts + " quarts in " + gallons + " gallons.");
             if(confirm("Cancel to end process") == false) {
                 throw error("Calculation Completed");
             }
@@ -436,6 +436,15 @@ if (confirm("Confirm to select an area calculator\nCurrent area calculator: Widt
     var height = prompt("Enter the height");
     var area = `An object ${width} units wide, ${length} units long and ${height} units tall has an area of ${width * length * height} units cubed`;
     alert(area);
+    if (confirm("Cancel to end process") == false) {
+        throw error("Calculation Completed");
+    }
+};
+if (confirm("Confirm to select an area calculator\nCurrent area calculator: perimeter finder") == true) {
+    var width = prompt("Enter the width");
+    var length = prompt("Enter the length");
+    var perimeter = Number(width * 2) + Number(length * 2);
+    alert(`An object with a width of ${width} units and a length of ${length} units has a perimeter of ${perimeter} units.`);
     if (confirm("Cancel to end process") == false) {
         throw error("Calculation Completed");
     }
