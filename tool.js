@@ -399,8 +399,9 @@ if(confirm("Confirm to select a program\nCurrent program: Percentage Finder") ==
         if (confirm("Confirm to select a percentage finder\nCurrent finder: get discount") == true) {
             var price = prompt("Enter a price (no $ sign)");
             var percentOff = prompt("Enter a discount (% off)");
-            var newPrice = (price * (percentOff / 100));
-            var saved = price - newPrice;
+            var percOffDec = percentOff / 100;
+            var saved = (price * percOffDec);
+            var newPrice = price - saved;
             alert(`An object that costs $${price} and is ${percentOff}% off costs $${newPrice}, and you would save $${saved}`);
             if (confirm("Cancel to end process") == false) {
                 throw error("Calculation Completed");
