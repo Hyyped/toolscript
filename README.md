@@ -12,8 +12,6 @@
     <br />
     <br />
   </p>
- 
-![Hyyped's GitHub stats](https://github-readme-stats.vercel.app/api?username=Hyyped&show_icons=true&theme=radical)
 
 ## usage
 1. Type 'javascript:' into the address bar
@@ -22,5 +20,8 @@
 
 ### have a suggestion, bug, or question? Go to the [issues tab](https://github.com/Hyyped/toolscript/issues)
 ##
+<p align="center">
+ ![Hyyped's GitHub stats](https://github-readme-stats.vercel.app/api?username=Hyyped&show_icons=true&theme=radical)
+ </p>
 
 ToolScript © 2023 by Hyyped is licensed under CC BY-NC-SA 4.0 
