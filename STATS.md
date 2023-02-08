@@ -12,4 +12,4 @@
     <br />
     <br />
   </p>
-![Hyyped's GitHub stats](https://github-readme-stats.vercel.app/api?username=Hyyped&show_icons=true&theme=radical)
+![Hyyped's GitHub stats](https://github-readme-stats.vercel.app/api?username=Hyyped&show_icons=true&theme=algolia)
