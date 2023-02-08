@@ -12,5 +12,6 @@
     <br />
     <br />
   </p>
-
+<p align="center">
 ![Hyyped's GitHub stats](https://github-readme-stats.vercel.app/api?username=Hyyped&show_icons=true&theme=algolia)
+</p>
