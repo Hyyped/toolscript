@@ -12,6 +12,6 @@
     <br />
     <br />
 
-![Hyyped's GitHub stats](https://github-readme-stats.vercel.app/api?username=Hyyped&show_icons=true&theme=algolia)
+![Hyyped's GitHub stats](https://github-readme-stats.vercel.app/api?username=Hyyped&show_icons=true&bg_color=71,green,blue,blue...green)
  
 </p>
