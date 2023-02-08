@@ -1,3 +1,5 @@
+![Hyyped's GitHub stats](https://github-readme-stats.vercel.app/api?username=Hyyped&show_icons=true&theme=radical)
+
 ## usage
 1. Type 'javascript:' into the address bar
 2. Paste selected code after 'javascript:'
